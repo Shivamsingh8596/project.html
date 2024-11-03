@@ -1,0 +1,112 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Background and logo container */
+  .background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+  }
+  
+  /* Amazon logo */
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .amazon-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Form container */
+  .form-container {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #111;
+  }
+  
+  /* Form styling */
+  .create-account-form label {
+    font-size: 0.9rem;
+    color: #111;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  .create-account-form input[type="text"],
+  .create-account-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+  }
+  
+  .create-account-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .create-account-form button:hover {
+    background-color: #e89000;
+  }
+  
+  .password-note {
+    font-size: 0.75rem;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  /* Agreement and sign-in links */
+  .agreement {
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 15px;
+  }
+  
+  .agreement a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .agreement a:hover {
+    text-decoration: underline;
+  }
+  
+  .sign-in {
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .sign-in a {
+    color: #0066c0;
+    text-decoration: none;
+  }
+  
+  .sign-in a:hover {
+    text-decoration: underline;
+  }
+  
